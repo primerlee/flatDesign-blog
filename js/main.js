@@ -27,7 +27,7 @@ $(function () {
 
    back_top.on("click",function () {
        $("html,body").animate({scrollTop: "0"},800);
-   })
+   });
 
    $(window).trigger("scroll");
 
